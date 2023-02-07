@@ -123,6 +123,586 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35276341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4318919388786339946, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &35276343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35276341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Portugal
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &35276347
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35276341}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2718994350268078354, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &59188359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3391185492596961332, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &59188361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59188359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Bulgaria
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &59188365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59188359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8193265647220460210, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &108956170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108956172}
+  - component: {fileID: 108956171}
+  m_Layer: 0
+  m_Name: CountryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &108956171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108956170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d7c9117e414b845a195751792dccef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryList: []
+--- !u!4 &108956172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108956170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.2058, y: -19.220547, z: 5.2653303}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &182924017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7122581214881028198, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &182924019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182924017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Turkey
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &182924023
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182924017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4698542606860246547, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &276806650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276806654}
+  - component: {fileID: 276806653}
+  - component: {fileID: 276806652}
+  - component: {fileID: 276806651}
+  m_Layer: 5
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &276806651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276806650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &276806652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276806650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &276806653
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276806650}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &276806654
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276806650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1362894226}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &284515239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4677416873733988533, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &284515241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284515239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Czechia
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &284515245
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284515239}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1062687408113974805, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &291637176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 291637178}
+  - component: {fileID: 291637179}
+  - component: {fileID: 291637177}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &291637177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291637176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba40b2b9ba07784f8601753a839cf71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countryText: {fileID: 1362894227}
+--- !u!4 &291637178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291637176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.0138187, y: 1.4634656, z: 0.058374744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &291637179
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291637176}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &334399376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334399378}
+  - component: {fileID: 334399377}
+  m_Layer: 0
+  m_Name: LightSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &334399377
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334399376}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.7924528, g: 0.7924528, b: 0.7924528, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &334399378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334399376}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &357060156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6890207135598760670, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &357060158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357060156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Netherlands
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &357060162
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357060156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -662536034799159136, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &384601525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2156270111332248044, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &384601527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384601525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Croatia
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &384601531
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384601525}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2890541256192570060, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &447862081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4183615278928257400, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &447862083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447862081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Liechtenstein
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &447862087
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447862081}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4256621804750249300, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,6 +714,8 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -174,9 +756,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 109
   orthographic: 1
-  orthographic size: 7.2370615
+  orthographic size: 599.47345
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -200,13 +782,1488 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -23.21}
+  m_LocalPosition: {x: -114, y: -93, z: -779}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abda4ea0425b40c44b24e6d217a9dd49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panSpeed: 80
+  panBorderThickness: 20
+  panLimit: {x: 0, y: 0}
+--- !u!1 &557007444 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8595958040805140248, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &557007446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557007444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Slovenia
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &557007450
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557007444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4262064235014186919, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &570755112 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9009720448579034534, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &570755114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570755112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Slovakia
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &570755118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570755112}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 952790607516012297, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &611206479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 611206482}
+  - component: {fileID: 611206481}
+  - component: {fileID: 611206480}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &611206480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611206479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &611206481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611206479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &611206482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611206479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.0138187, y: 1.4634656, z: 0.058374744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &617023060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1078718315611197045, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &617023062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617023060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: United Kingdom
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &617023066
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617023060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7969988763498949437, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &622314822 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1964294683975442880, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &622314824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622314822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Belgium
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &622314828
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622314822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4272191668560014253, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &691894498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6063235958623771750, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &691894500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691894498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Andorra
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &691894504
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691894498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4230271924670294289, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &754597728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1934436637554949749, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &754597730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754597728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Estonia
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &754597734
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754597728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3095490223804949648, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &814967424 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4461208136214084503, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &814967426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814967424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Spain
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &814967430
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814967424}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2467571650764801570, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &957708385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2719595321380187956, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &957708387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957708385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Belarus
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &957708391
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957708385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4216066034695957844, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &975162318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4085131386216913257, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &975162320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975162318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Latvia
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &975162324
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975162318}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8574117499192527273, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &999940414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 40880100068827315, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &999940416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999940414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Germany
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &999940420
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999940414}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6952774248367510396, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1164194520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6082280141161355416, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1164194522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164194520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Finland
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1164194526
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164194520}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5933845547580920563, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1169398094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1781265563170894415, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1169398096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169398094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: North Macedonia
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1169398100
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169398094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6245671474238164932, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1207166338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6562183702160807328, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1207166340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207166338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Iceland
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1207166344
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207166338}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3261367832045441230, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1307697392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1385089365203647303, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1307697394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307697392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Switzerland
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1307697398
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307697392}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4275844985249581300, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1324066079 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7318377969123274362, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1324066081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324066079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Greece
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1324066085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324066079}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1235850626266152749, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1362894225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1362894226}
+  - component: {fileID: 1362894228}
+  - component: {fileID: 1362894227}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1362894226
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362894225}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 276806654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -5}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1362894227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362894225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 300
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1362894228
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362894225}
+  m_CullTransparentMesh: 1
+--- !u!1 &1415089642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7086227287344673130, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1415089644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415089642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Albania
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1415089648
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415089642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5147788480447786924, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1428620661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1050777218773603317, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1428620663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428620661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Portugal
+    tribe: 0
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1428620667
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428620661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6493846212485343788, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1446295132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6645723715228422778, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1446295134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446295132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: France
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1446295138
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1446295132}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -78122290439093665, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1471155031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8322858442561939373, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1471155033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471155031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Sweeden
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1471155037
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471155031}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2199962355637767992, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1516805174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3111992568214442521, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1516805176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516805174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Montenegro
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1516805180
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516805174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1239358559069853190, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1551187981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8266254650443449163, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1551187983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551187981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Ukraine
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1551187987
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551187981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5767676182444670299, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1571537863 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 89819906089843098, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1571537865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571537863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Kosovo
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1571537869
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571537863}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5503971633921439219, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1588870242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4701786853181095805, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1588870244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588870242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Italy
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1588870248
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588870242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8347860007505408071, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1594882805 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7845579067384129657, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1594882807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594882805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Denmark
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1594882811
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594882805}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5861884014373220962, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1673481258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5362927490640000843, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1673481260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673481258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Luxembourg
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1673481264
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673481258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3683944644134704440, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1685310442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2851942596952417406, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1685310444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685310442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Serbia
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1685310448
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685310442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6696519172442624773, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1738758004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9092230018734439253, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1738758006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738758004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Bosnia and Herzegovina
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1738758010
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738758004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2437478701718282627, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1774517187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2676090137929565141, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1774517189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774517187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Hungary
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1774517193
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774517187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4112302240191636303, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1837721574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 20501089447232013, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837721576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837721574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Cyprus
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1837721580
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837721574}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8126445738373881811, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1844531682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8307550723350252642, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1844531684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844531682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Moldova
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1844531688
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844531682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2862124204173549972, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1849547524 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3341089953097765038, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1849547526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849547524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Romania
+    tribe: 1
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1849547530
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849547524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7106565101080444435, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &1969749393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2453837975515884450, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1969749395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969749393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Austria
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &1969749399
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969749393}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7836906420160003281, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &2018308359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7166688589506333537, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2018308361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018308359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Poland
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &2018308365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018308359}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7198859840689853806, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &2024399089 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1583129372501583409, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2024399091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024399089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Norway
+    tribe: 4
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &2024399095
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024399089}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4164064549293167039, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &2099832135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4230307636939404757, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2099832137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099832135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Lithuania
+    tribe: 2
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &2099832141
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099832135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1484590562482293223, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
+--- !u!1 &2110468838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8972108734660693201, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+  m_PrefabInstance: {fileID: 2827356139852908084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2110468840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110468838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 595ad27ce59a1f949b560eb7cb8b0e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  country:
+    name: Ireland
+    tribe: 3
+    moneyReward: 0
+    expReward: 0
+--- !u!64 &2110468844
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110468838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6861275639701414201, guid: eddc1051694d0d34c88361ae079278b9, type: 3}
 --- !u!1001 &2827356139852908084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -214,9 +2271,157 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 20501089447232013, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Cyprus
+      objectReference: {fileID: 0}
+    - target: {fileID: 20501089447232013, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 40880100068827315, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Germany
+      objectReference: {fileID: 0}
+    - target: {fileID: 40880100068827315, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 89819906089843098, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Kosovo
+      objectReference: {fileID: 0}
+    - target: {fileID: 89819906089843098, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 127377862409065397, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 226457989846965096, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 326597129261445152, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 505501731094154828, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 587843332614430931, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 695018405972454879, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 913590454586923532, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 1044203231154919476, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 1050777218773603317, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Portugal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050777218773603317, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078718315611197045, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: United Kingdom
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078718315611197045, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 1116424398524435479, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 1385089365203647303, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Switzerland
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385089365203647303, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583129372501583409, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Norway
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583129372501583409, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781265563170894415, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: North Macedonia
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781265563170894415, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 1884372887361342300, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 1901058835661568651, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 1934436637554949749, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Estonia
+      objectReference: {fileID: 0}
+    - target: {fileID: 1934436637554949749, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964294683975442880, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Belgium
+      objectReference: {fileID: 0}
+    - target: {fileID: 1964294683975442880, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156270111332248044, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Croatia
+      objectReference: {fileID: 0}
+    - target: {fileID: 2156270111332248044, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 2270081884597031733, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
     - target: {fileID: 2357194673005793214, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357194673005793214, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357194673005793214, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2357194673005793214, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2357194673005793214, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
       propertyPath: m_LocalPosition.x
@@ -224,7 +2429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2357194673005793214, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.01
+      value: -793
       objectReference: {fileID: 0}
     - target: {fileID: 2357194673005793214, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
       propertyPath: m_LocalPosition.z
@@ -258,9 +2463,398 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2453837975515884450, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Austria
+      objectReference: {fileID: 0}
+    - target: {fileID: 2453837975515884450, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676090137929565141, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Hungary
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676090137929565141, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 2719595321380187956, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Belarus
+      objectReference: {fileID: 0}
+    - target: {fileID: 2719595321380187956, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851942596952417406, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Serbia
+      objectReference: {fileID: 0}
+    - target: {fileID: 2851942596952417406, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111992568214442521, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Montenegro
+      objectReference: {fileID: 0}
+    - target: {fileID: 3111992568214442521, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
     - target: {fileID: 3169866444003628292, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
       propertyPath: m_Name
       value: EuropeMap
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 3203592797258630577, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 3339698363820608073, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 3341089953097765038, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Romania
+      objectReference: {fileID: 0}
+    - target: {fileID: 3341089953097765038, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391185492596961332, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Bulgaria
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391185492596961332, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 3743184397750081203, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 3899702485274697865, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4085131386216913257, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Latvia
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085131386216913257, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097108305439416320, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4113783239975010864, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4183615278928257400, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Liechtenstein
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183615278928257400, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230307636939404757, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Lithuania
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230307636939404757, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249194874080450967, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4255863988750014437, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4318919388786339946, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Portugal
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318919388786339946, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 4334100680091273521, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4461208136214084503, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Spain
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461208136214084503, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594182527741261669, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4677416873733988533, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Czechia
+      objectReference: {fileID: 0}
+    - target: {fileID: 4677416873733988533, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701786853181095805, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Italy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701786853181095805, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711534917198316071, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4773966294379719476, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 4908681811617382910, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5038657397448830273, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5039187015870756651, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5140712089864708251, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5362927490640000843, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Luxembourg
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362927490640000843, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551415556385038661, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5732074367535031639, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5798203525418203261, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5901333634703267294, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 5967897996872765822, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Armenia
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063235958623771750, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Andorra
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063235958623771750, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 6077889024325963403, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 6082280141161355416, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Finland
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082280141161355416, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 6354580235537621092, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 6562183702160807328, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Iceland
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562183702160807328, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 6645723715228422778, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: France
+      objectReference: {fileID: 0}
+    - target: {fileID: 6645723715228422778, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 6854363351482796134, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Georgia
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890207135598760670, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Netherlands
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890207135598760670, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086227287344673130, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Albania
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086227287344673130, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 7122581214881028198, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Turkey
+      objectReference: {fileID: 0}
+    - target: {fileID: 7122581214881028198, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155480009494917476, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 7166688589506333537, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Poland
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166688589506333537, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 7272551219743388669, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 7318377969123274362, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Greece
+      objectReference: {fileID: 0}
+    - target: {fileID: 7318377969123274362, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804398522625364664, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 7845579067384129657, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Denmark
+      objectReference: {fileID: 0}
+    - target: {fileID: 7845579067384129657, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 8091081688849332901, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 8226199908405042449, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 8266254650443449163, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Ukraine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266254650443449163, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307550723350252642, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Moldova
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307550723350252642, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322858442561939373, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Sweeden
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322858442561939373, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 8540507617374418316, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 8595958040805140248, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Slovenia
+      objectReference: {fileID: 0}
+    - target: {fileID: 8595958040805140248, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865480391347077964, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 8882996506759956693, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 8972108734660693201, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Ireland
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972108734660693201, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009720448579034534, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Slovakia
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009720448579034534, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041452360883074858, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e45a4640268c0f40b41ba994ec65f9d, type: 2}
+    - target: {fileID: 9092230018734439253, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_Name
+      value: Bosnia and Herzegovina
+      objectReference: {fileID: 0}
+    - target: {fileID: 9092230018734439253, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
+      propertyPath: m_TagString
+      value: Country
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2827356138491177047, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4b1691c494edf674d93f78cfc17ce632, type: 3}
